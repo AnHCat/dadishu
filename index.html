@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>打地鼠</title>
+		<link rel="stylesheet" href="mouseStyle.css">
+	</head>
+	<body>
+		<!-------------------------------------------标题------------------------------------------------->
+		<div class="title">
+			<!--
+				direction:滚动的方向
+				behavior：滚动的方式
+				scrollmount:移动速度（设置每次滚动时移动的长度）
+				scrolldelay:滚动延迟（设置滚动的时间间隔 单位是毫秒）
+			-->
+			<marquee direction="left" behavior="alternate">打地鼠喽！</marquee>
+		</div>
+		<!-------------------------------------------草坪------------------------------------------------->
+		<div id="gameDiv">
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+			<img src="img/5.jpg" onclick="beat(this)"/>
+		</div>
+		<!-------------------------------------------积分框----------------------------------------------->
+		<p id="score">得分:0分</p>
+		<!------------------------------------------开始按钮----------------------------------------------->
+		<div id="button" onclick="start(this)"><b>START</b></div>
+		<div id="button1" onclick="end()"><b>End</b></div>
+		<script src="mouseJS.js"></script>
+	</body>
+</html>

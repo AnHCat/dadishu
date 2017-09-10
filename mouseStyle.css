@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/*<!------------------------------------------草坪------------------------------------------------->*/
+#gameDiv{
+	width:320px;
+	height: 320px;
+	margin:50px auto;
+	background:url(img/5.jpg);
+	background-size:100% 100%;
+	cursor:pointer;
+}
+#gameDiv img{
+	width:100px;
+	height:100px;
+	cursor:pointer;
+	
+}
+/*<!-------------------------------------------积分框----------------------------------------------->*/
+#score{
+	width:100px;
+	height:50px;
+	margin:0px auto;
+	background: orange;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 500;
+	cursor:pointer;
+}
+/*<!------------------------------------------开始按钮----------------------------------------------->*/
+#button{
+	width:120px;
+	height:50px;
+	margin:5px auto;
+	text-align: center;
+	line-height: 50px;
+	font-family: forte;
+	font-size:30px;
+	color: cyan;
+	cursor:pointer;
+	border:1px solid #ADFF2F;
+	background:#ADFF2F;
+	
+}
+#button1{
+	width:80px;
+	height:50px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 50px;
+	font-family: forte;
+	font-size:30px;
+	color: cyan;
+	cursor:pointer;
+	border:1px solid #ADFF2F;
+}
+/*<!-------------------------------------------标题------------------------------------------------->*/
+.title{
+	position: relative;
+	font-family: forte;
+	font-size: 20px;
+	color: deeppink;
+	width:330px;
+	height:50px;
+	margin:20px auto;
+	background:greenyellow;
+	text-align: center;
+	line-height: 50px;
+	cursor:pointer;
+}
+
